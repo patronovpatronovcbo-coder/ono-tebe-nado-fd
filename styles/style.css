@@ -1,10 +1,3 @@
-body {
-  width: 1100px;
-  margin: 0 auto;
-  font-family: Raleway, sans-serif;
-  background: #ffffff;
-}
-
 .header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
@@ -72,7 +65,7 @@ body {
 .cover {
   position: relative;
   box-sizing: border-box;
-  height: 757px;
+  min-height: 757px;
   padding: 165px 50px 50px;
   background-image: url("../images/cover.jpg");
   background-repeat: no-repeat;
@@ -149,7 +142,8 @@ body {
 }
 
 .lots {
-  padding: 180px 50px 90px;
+  padding-top: 180px;
+  padding-bottom: 90px;
 }
 
 .lots__heading {
@@ -169,7 +163,7 @@ body {
   margin: 0;
   padding: 0;
   list-style: none;
-}
+} 
 
 .card {
   position: relative;
@@ -227,7 +221,7 @@ body {
   display: grid;
   grid-template-columns: 240px 740px;
   gap: 72px;
-  padding: 90px 50px;
+  padding: 0 24px;
 }
 
 .about__logo {
@@ -254,7 +248,7 @@ body {
 }
 
 .about__column:last-child {
-  padding-top: 0;
+  padding-top: 0px;
 }
 
 .about__text {
